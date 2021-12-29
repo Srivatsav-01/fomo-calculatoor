@@ -1,0 +1,144 @@
+
+body 
+{
+    background-color: #1B1A1A;
+    text-align: center;
+    color: white;
+}
+
+header >h1
+{
+ 
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 47px;
+color: #979191;
+}
+
+.calculator
+{
+    position: absolute;
+width: 524px;
+height: 400px;
+left: 600px;
+top: 100px;
+
+background: #252525;
+box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25), inset 10px 10px 4px #1B1A1A;
+border-radius: 23px;
+}
+
+
+.calculator >h2 {
+  
+position: relative;
+width: 282px;
+height: 74px;
+left: 20px;
+top: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #979191;
+}
+.calculator> select {
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 300px;
+    top: 50px;
+    
+    /* background: black;
+    color: white; */
+}
+
+.calculator > h3 {
+    position: relative;
+width: 191px;
+height: 46px;
+left: 20px;
+top: 20px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #978D8D;
+}
+.calculator > label{
+    position: relative;
+width: 238px;
+height: 105px;
+left: px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #979191;
+
+}
+.calculator > input {
+    position:relative;
+width: 157px;
+height: 30px;
+left: 20px;
+
+background: #C4C4C4;
+
+}
+
+.date {
+    position:relative;
+width: 100px;
+height: 34px;
+left: 00px;
+bottom: 10px;
+
+background: #C4C4C4;
+border-radius: 11px;
+}
+
+/* .amount 
+{
+    position:relative;
+    width: 100px;
+    height: 34px;
+    left: 00px;
+    bottom: 10px;
+    
+    background: #C4C4C4;
+    border-radius: 11px;
+    
+} */
+#calculate {
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 200px;
+    top: 300px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+
+
+
+.dateSelected {
+    background-color: black;
+    color:white;
+} 
+
